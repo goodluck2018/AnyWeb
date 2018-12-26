@@ -1,0 +1,23 @@
+{
+  "name": "anyweb",
+  "version": "0.1.0",
+  "description": "",
+  "main": "/src/app.js",
+  "bin": {
+    "anyweb": "bin/anyweb"
+  },
+  "scripts": {
+    "start": "supervisor src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:goodluck2018/AnyWeb.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "handlebars": "^4.0.12",
+    "yargs": "^12.0.5"
+  }
+}
