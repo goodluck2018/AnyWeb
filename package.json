@@ -1,6 +1,6 @@
 {
   "name": "anyweb",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
   "main": "/src/app.js",
   "bin": {
@@ -9,11 +9,7 @@
   "scripts": {
     "start": "supervisor src/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:goodluck2018/AnyWeb.git"
-  },
-  "author": "",
+  "author": "shaolonger",
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.4.1",
